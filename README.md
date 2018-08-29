@@ -7,5 +7,9 @@ Logistics Company
 ```
 const tracking = require('delivery-tracking')
 
-tracking.cj('tracking_number')
+Promise
+  .all([tracking.cj('tracking_number')])
+  .then(result => {
+    console.log(result)
+  })
 ```
