@@ -5,7 +5,7 @@ Logistics Company
 
 ## How to use it
 ```
-const tracking = require('tracking')
+const tracking = require('delivery-tracking')
 
 tracking.cj('tracking_number')
 ```
