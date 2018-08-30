@@ -13,9 +13,10 @@
     "cheerio": "^1.0.0-rc.2"
   },
   "devDependencies": {
+    "coveralls": "^3.0.2",
     "jest": "^23.5.0"
   },
   "scripts": {
-    "test": "NODE_ENV=test jest"
+    "test": "NODE_ENV=test jest --coverage --coverageReporters=text-lcov | coveralls"
   }
 }
