@@ -1,6 +1,6 @@
 # Tracking
 
-[![build status](https://img.shields.io/travis/koobitor/axios.svg?style=flat-square)](https://travis-ci.org/koobitor/delivery-tracking)
+[![build status](https://img.shields.io/travis/koobitor/delivery-tracking.svg?style=flat-square)](https://travis-ci.org/koobitor/delivery-tracking)
 [![code coverage](https://img.shields.io/coveralls/koobitor/delivery-tracking.svg?style=flat-square)](https://coveralls.io/r/koobitor/delivery-tracking)
 
 Logistics Company
