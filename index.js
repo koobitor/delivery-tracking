@@ -4,8 +4,15 @@ const cheerio = require('cheerio')
 exports.cj = async (id) => {
   const url = "http://thagnexs.cjkx.net/web/g_detail.jsp?slipno=" + id
 
+  let config = {}
+
+  if(process.env.NODE_ENV == 'test'){
+    const adapter = require('axios/lib/adapters/http')
+    config = { adapter }
+  }
+
   const html = await axios
-    .get(url)
+    .get(url, config)
     .then(result => result.data)
 
   const result = await Promise
